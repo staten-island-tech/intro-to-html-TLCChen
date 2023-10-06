@@ -1,3 +1,83 @@
-body{
+/* body{
     background-color: rgb(0, 255, 128);
+} */
+
+html, body, *{
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+.box{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.card{
+    width: 100%;
+    height: auto;
+    animation: box 2.5s infinite;
+}
+img{
+    width: 80vw;
+    height: auto;
+}
+
+h1{
+    text-align: center;
+    font-size: 10rem;
+    animation: header 2.5s infinite;
+}
+@keyframes box{
+    0%{
+        background-color: rgb(138, 43, 226);
+    }
+    20%{
+        background-color: rgb(153, 81, 221);
+    }
+    40%{
+        background-color: rgb(176, 115, 233);
+    }
+    60%{
+        background-color: rgb(197, 146, 245);
+    }
+    80%{
+        background-color: rgb(153, 81, 221);
+    }
+    100%{
+        background-color: rgb(153, 81, 221);
+    }
+}
+
+@keyframes header {
+    0%{
+      background-color: rgb(242, 243, 202);
+    }
+    12.5%{
+      background-color: rgb(240, 241, 159);
+    }
+    25%{
+      background-color: rgb(252, 187, 102);
+    }
+    37.5%{
+      background-color: rgb(245, 161, 52);
+    }
+    50%{
+      background-color: rgb(185, 107, 4);
+    }
+    62.5%{
+      background-color: rgb(245, 161, 52);
+    }
+    75%{
+      background-color: rgb(252, 187, 102);
+    }
+    87.5%{
+      background-color: rgb(241, 206, 159);
+    }
+    100%{
+      background-color: rgb(247, 222, 189)
+    }
+  
+  }
